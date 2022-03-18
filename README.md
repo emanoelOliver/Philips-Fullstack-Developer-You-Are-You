@@ -4,7 +4,7 @@
 
 
 
-## # 1 - Lógica de programação essencial :computer: :heavy_check_mark: ##
+## Lógica de programação essencial :computer: :heavy_check_mark: ##
 
 ### Introdução à lógica e à programação  
 
@@ -24,7 +24,7 @@
 
 
 
-## # 2 - Pensamento computacional :desktop_computer: :robot: :heavy_check_mark:
+## Pensamento computacional :desktop_computer: :robot: :heavy_check_mark:
 
 * Visão geral
 * Habilidade complementares
@@ -44,7 +44,7 @@
 
 
 
-## # 3 - Introdução ao Git e ao Github  :cat: :heavy_check_mark:
+## Introdução ao Git e ao Github  :cat: :heavy_check_mark:
 
 ### Introdução ao Git 
 
@@ -78,7 +78,50 @@
 * Como os conflitos acontecem no GitHub e como resolve-lós.
 
 
- 
+
+ ## Introdução a criação de websites com HTML5 e CSS3 :page_facing_up: :heavy_check_mark:
+
+### Introdução ao curso de HTML
+
+* Estrutura Básica 
+* Material de apoio
+
+### Entendendo o que é semântica
+
+* Semântica - Parte 1 
+* Semântica - Parte 2
+
+### Como usar textos e links em HTML
+
+* Tags para textos
+* Tags para links
+* Exercício prático
+
+### Como inserir imagens em seu site
+
+* Tag img
+* Exercício prático
+
+### Como organizar listas com HTML
+
+* Tags li, ul e ol
+* Exercício prático
+
+### Introdução e conceitos básicos do CSS3
+
+* Introdução ao CSS3
+* Conceitos básicos
+* Material de apoio
+
+### Estilizando elementos, textos e listas
+
+* Estilizando elementos
+* Estilizando textos
+* Estilizando listas
+
+### Dimensão e alinhamento
+
+* Propriedades de dimensões e alinhamento
 
 
 
