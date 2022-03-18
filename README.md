@@ -2,7 +2,9 @@
 
 ##### O bootcamp Philips Fullstack Developer é um programa gratuito para quem deseja iniciar a carreira em desenvolvimento e tecnologia da informação. Você vai aprender com experiências educacionais práticas como criar aplicações e projetos do zero ao código final. Este programa é uma iniciativa do projeto You Are You, que tem o objetivo de fomentar a diversidade e inclusão em seu time e no ecossistema tecnológico como um todo. As contratações serão exclusivas para pessoas desenvolvedoras de grupos de Diversidade. #####
 
-## Lógica de programação essencial :computer: :heavy_check_mark: ##
+
+
+## # 1 - Lógica de programação essencial :computer: :heavy_check_mark: ##
 
 ### Introdução à lógica e à programação  
 
@@ -20,7 +22,9 @@
 * Trabalhando com laços de repetição em Portugol
 * Aplicação práticas com matrizes e vetores
 
-## Pensamento computacional :desktop_computer: :robot:
+
+
+## # 2 - Pensamento computacional :desktop_computer: :robot: :heavy_check_mark:
 
 * Visão geral
 * Habilidade complementares
@@ -38,7 +42,43 @@
 * Estudo de caso 2 
 * Conclusão
 
-## Introdução ao Git e ao Github
+
+
+## # 3 - Introdução ao Git e ao Github  :cat: :heavy_check_mark:
+
+### Introdução ao Git 
+
+* Entendendo o que é Git e a sua importância
+
+### Navegação via command line interface e instalação
+
+* Comandos básicos para um bom desempenho no terminal
+* Realizando a instalação do Git
+
+### Entendendo como o Git funciona por baixa dos panos
+
+* Tópicos fundamentais para entender o funcionamento do Git
+* Objetos internos do Git
+* Chave SSH e Token
+
+### Primeiros comandos com Git
+
+* Iniciando Git e criando um commit
+
+### Ciclo de vida dos arquivos no Git
+
+* Passo a passo no ciclo de vida
+
+### Introdução ao Github 
+
+* Trabalhando com o GitHub
+
+### Resolvendo conflitos
+
+* Como os conflitos acontecem no GitHub e como resolve-lós.
+
+
+ 
 
 
 
