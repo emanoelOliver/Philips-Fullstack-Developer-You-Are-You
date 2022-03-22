@@ -1,10 +1,14 @@
 # Philips-Fullstack-Developer-You-Are-You :books:
 
+------
+
 ##### O bootcamp Philips Fullstack Developer é um programa gratuito para quem deseja iniciar a carreira em desenvolvimento e tecnologia da informação. Você vai aprender com experiências educacionais práticas como criar aplicações e projetos do zero ao código final. Este programa é uma iniciativa do projeto You Are You, que tem o objetivo de fomentar a diversidade e inclusão em seu time e no ecossistema tecnológico como um todo. As contratações serão exclusivas para pessoas desenvolvedoras de grupos de Diversidade. #####
 
-
+------
 
 ## Lógica de programação essencial :computer: :heavy_check_mark: ##
+
+------
 
 ### Introdução à lógica e à programação  
 
@@ -26,6 +30,10 @@
 
 ## Pensamento computacional :desktop_computer: :robot: :heavy_check_mark:
 
+------
+
+### Visão geral do pensamento computacional
+
 * Visão geral
 * Habilidade complementares
 
@@ -45,6 +53,8 @@
 
 
 ## Introdução ao Git e ao Github  :cat: :heavy_check_mark:
+
+------
 
 ### Introdução ao Git 
 
@@ -80,6 +90,8 @@
 
 
  ## Introdução a criação de websites com HTML5 e CSS3 :page_facing_up: :heavy_check_mark:
+
+------
 
 ### Introdução ao curso de HTML
 
@@ -124,6 +136,34 @@
 * Propriedades de dimensões e alinhamento
 
 
+
+## Construindo páginas para internet com Bootstrap :page_facing_up:
+
+------
+
+### Introdução ao Bootstrap
+
+* Aprenda sobre o framework Bootstrap
+
+### Aprenda a utilizar o Bootstrap na sua página WEB
+
+* Aprenda  utilizar o Bootstrap na sua página WEB
+
+### Crie containers personalizados para o seu site
+
+* Crie containers personalizados para o seu site
+
+### Trabalhando com imagens dentro de containers
+
+* Trabalhando com imagens dentro de containers
+
+### Crie lista de navegação com imagens em seu projeto
+
+* Crie lista de navegação com imagens em seu projeto
+
+### Crie lista de navegação dentro de containers utilizando imagens
+
+* Crie lista de navegação dentro de containers utilizando imagens
 
 
 

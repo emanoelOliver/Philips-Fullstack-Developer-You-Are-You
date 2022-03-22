@@ -1,0 +1,26 @@
+.navbar {
+	background-color: #DCDCDC;
+	font-family: verdana;
+}
+
+.quem-somos {
+	background-color: #D3D3D3;
+}
+
+.cont {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+img {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+p {
+	margin: 0;
+	margin-bottom: 16px;
+	text-transform: capitalize;
+	text-align: justify;
+}
+
