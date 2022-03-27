@@ -137,7 +137,7 @@
 
 
 
-## Construindo páginas para internet com Bootstrap :page_facing_up:
+## Construindo páginas para internet com Bootstrap :page_facing_up::heavy_check_mark:
 
 ------
 
@@ -166,4 +166,81 @@
 * Crie lista de navegação dentro de containers utilizando imagens
 
 
+
+## Posicionando elementos com flexbox em CSS3
+
+------
+
+### Introdução ao curso 
+
+* Apresentação do curso
+* Proposta de projeto final
+* Introdução ao Flex Box
+
+### Fundamentos do Flexbox - Parte 1 
+
+* Estrutura básica do display : flex
+* Prática com display : flex
+* Estrutura básica do flex direction
+* Pratica com flex direction
+* Estrutura básica do flex wrap
+* Pratica com flex wrap
+* Estrutura básica e prática com flex flow
+* Estrutura básica do justify content
+* Pratica com justify content - parte 1 
+* Pratica com justify content - parte 2
+* Estrutura básica e pratica com align items 
+
+### Fundamentos do Flexbox - Parte 2 
+
+* Estrutura básica e prática com Flex grow
+* Estrutura básica do flex basis
+* Pratica com flex basis
+* Estrutura básica do flex shrink
+* Estrutura básica e prática com flex
+* Estrutura básica e prática com order
+* Estrutura básica e prática com align self
+
+### Projeto integrador
+
+* Apresentação preparação do projeto
+* Organizando a interface - parte 1.1
+* Organizando a interface - parte 1.2
+* Organizando a interface - parte 1.3
+* Organizando a interface - parte 2
+* Organizando a interface - parte 3
+
+
+
+## Sintaxe básica em javaScript
+
+------
+
+### Apresentação do curso
+
+* Apresentação do curso
+
+### O que danado é JavaScript ? 
+
+* O que danado é JavaScript ?
+
+### Entendendo variáveis e seus valores
+
+* Entendendo variáveis e seus valores
+
+### Vetores e objetos 
+
+* Vetores e objetos
+
+### Estruturas condicionais
+
+* Estrutura condicionais 
+
+### Funções e suas particularidades
+
+* Funções e seus particularidades
+
+### Aprofundado em funções
+
+* Aprofundando em funções 
 
