@@ -1,0 +1,59 @@
+.flex-container {
+	height: 150px; /* Adicionando uma altura de 150px */
+	border: 1px solid black; /* Uma borda no container */
+	max-width: 300px; /* Adicionando um limite max de 300px de largura */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+					e vai se abrigar dentro dele respeitando a orientação em linha */
+}
+
+.item {
+	line-height: 50px; /* Adicinando um espaçamento entra as linhas do texto em 50px*/
+	font-size: 24px; /* Tamanho da fontde de 24px */
+	min-width: 100px; /* Adicionando um limite max de 100px de largura */
+	height: 50%; /* Adicionando uma altura de 50% */
+	text-align: center; /* Alinhando os textos no centro */
+	
+}
+
+/*
+   #########################################
+   #               Flex Wrap               #
+   #########################################
+ */
+
+.nowrap {
+	flex-wrap: nowrap; /* Padrão da direita pra esquerda, mas se exceder 
+						  o tamanho do flex, ele vai fazer os conteudos */
+}
+
+.wrap {
+	flex-wrap: wrap; /* Igual ao NOWRAP só que se exceder o 
+						tamanho do flex ele faz a quebra de linha */
+}
+
+.wrap-reverse {
+	flex-wrap: wrap-reverse; /* Igual ao WRAP só que no sentido contrario */
+}
+
+/*
+   ##########################################
+   #  Cores de fundo para os items das DIV  #
+   ##########################################
+ */
+
+.blue {
+	background-color: aqua;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+.orange {
+	background-color: orange;
+}
+

@@ -1,0 +1,77 @@
+.container {
+	margin-bottom: 30px; /* Espaçamento abaixo de 30px em cada container */
+	width: 400px; /* Adinanddo um limite maximo de 400px de largura */
+	border: 1px solid black; /* Borda nos containers */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+							e vai se abrigar dentro dele respeitando a orientação em linha 
+						*/
+}
+
+/*
+   ##########################################
+   #            Align Items - Row           #
+   ##########################################
+*/
+
+.flex {
+	flex: 1;
+}
+
+.center {
+	align-items: center;
+}
+
+.strectch {
+	align-items: stretch;
+}
+
+.flex-start {
+	align-items: flex-start;
+}
+
+.flex-end {
+	align-items: flex-end;
+}
+	
+.base-line {
+	align-items: baseline;
+}
+
+.central {
+	height: 300px;
+	justify-content: center;
+}
+
+.central .item {
+	flex: 0;
+	padding: 20px;
+}
+
+/*
+   #########################################
+   #          Align Items - Column         #
+   #########################################
+*/
+
+.column {
+	flex-direction: column;
+}
+
+/*
+   ##########################################
+   #        Estilização dos conteudos       #
+   ##########################################
+ */
+
+h1, div{
+	font-family: monospace; /* Alteração da fonte */
+	font-size: 20px; /* Tamanho da fonte em 20px */
+}
+
+.item {
+	background-color: blueviolet; /* Cor de fundo roxa */
+	color: white; /* Cor dos caracteres branco */
+	text-align: center; /* Texto centralizado */
+	margin: 5px; /* Espamento entre os caracteres e o container */
+	flex: 1;
+}

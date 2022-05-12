@@ -1,0 +1,59 @@
+.flex-container {
+	border: 1px solid black; /* Uma borda no container */
+	max-width: 550px; /* Adicionando um limite maximo de 550px de largura */
+	max-height: 200px; /* Adicionando um limite maximo de 200px de altura */
+	margin-bottom: 10px; /* Espaçamento entre os items e a borda */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+							e vai se abrigar dentro dele respeitando a orientação em linha 
+						*/
+}
+
+/*
+   #########################################
+   #               Flex Flow               #
+   #########################################
+ */
+
+.default {
+	flex-flow: row nowrap;
+}
+
+.wrap {
+	flex-flow: row wrap;
+}
+
+.wrap-reverse {
+	flex-flow: row wrap-reverse;
+}
+
+.row-reverse {
+	flex-flow: row-reverse nowrap;
+}
+
+.row-reverse-wrap {
+	flex-flow: row-reverse wrap;
+}
+
+.row-reverse-wrap-reverse {
+	flex-flow: column wrap-reverse;
+}
+
+/*
+   ##########################################
+   #        Estilização dos conteudos       #
+   ##########################################
+ */
+
+h1, div{
+	font-family: monospace; /* Alteração da fonte */
+	font-size: 20px; /* Tamanho da fonte em 20px */
+}
+
+.item {
+	background-color: blueviolet; /* Cor de fundo roxa */
+	color: white; /* Cor dos caracteres branco */
+	margin: 5px; /* Espaçamento entre os caracteres e o container */
+	width: 100px; /* Uma largura de 100px */
+	height: 50px; /* Uma altura de 50px */
+	line-height: 50px; /* Espaçamento entre as linhas do textos em 50px */
+}

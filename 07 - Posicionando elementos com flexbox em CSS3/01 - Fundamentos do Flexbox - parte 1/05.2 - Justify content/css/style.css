@@ -1,0 +1,72 @@
+.container {
+	max.width: 500px; /* Adinanddo um limite maximo de 400px de largura */
+	width: 400px; /* Largura de 400px */
+	border: 1px solid black; /* Borda nos containers */
+	margin: 0; /* Espaçamento entre os caracteres e o container */
+	margin-bottom: 30px; /* Espaçamento abaixo de 30px em cada container */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+							e vai se abrigar dentro dele respeitando a orientação em linha 
+						*/
+}
+
+/*
+   #########################################
+   #        Justify - content : row        #
+   #########################################
+*/
+	
+.flex-start {
+	justify-content: flex-start;  /* Os itens são alinhados junto a borda de inicio */
+}
+
+.flex-end {
+	justify-content: flex-end; /* os itens são alinhados junto a borda final */
+}
+
+.center {
+	justify-content: center; /* Os itens são centralizados em linha */
+}
+
+.space-between {
+	justify-content: space-between; /* Os itens são destribuidos de forma igual ao longo da linha */
+}
+
+.space-around {
+	justify-content: space-around; /* Os itens são destribuidos na linha com o mesmo espaçamento entre eles */
+}
+
+.space-evenly {
+	justify-content: space-evenly; /* Os itens são distribuidos de forma que os espaçamento entre eles sejam igual */
+}
+
+/*
+   #########################################
+   #      Justify - content : Column       #
+   #########################################
+ */
+
+.column {
+	flex-direction: column;
+	min-height: 300px;
+}
+
+/*
+   ##########################################
+   #        Estilização dos conteudos       #
+   ##########################################
+ */
+
+h1, div{
+	font-family: monospace; /* Alteração da fonte */
+	font-size: 20px; /* Tamanho da fonte em 20px */
+}
+
+.item {
+	background-color: blueviolet; /* Cor de fundo roxa */
+	color: white; /* Cor dos caracteres branco */
+	text-align: center; /* Texto centralizado */
+	/*width: 70px; /* Uma largura de 100px */
+	/*height: 50px; /* Uma altura de 50px */
+	line-height: 50px; /* Espaçamento entre as linhas do textos em 50px */
+	margin: 5px; /* Espamento entre os caracteres e o container */
+}

@@ -1,0 +1,73 @@
+.flex-container { 
+	border: solid black 1px; /* Uma borda no container */
+	margin: 1px; /* Espaçamento de 1px nós containers */
+	padding: 0; /* Distância entre os conteudos de 0 */
+	list-style: none; /*  */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+					e vai se abrigar dentro dele respeitando a orientação em linha */
+}
+
+.flex-item {
+	background-color: red; /* Cor vermelha para o fundo dos itens */
+	color: white; /* Cor branca para os caracteres dos itens */
+	height: 50px; /* Adicionando uma altura de 50px */
+	width: 50px; /* Adicionando uma largura de 50px */
+	margin: 5px; /* Espaço dos items para a borda */
+	line-height: 50px; /* Adicionando um espaçamento entre as linhas do texto */
+	font-size: 20px; /* Tamanho da fonte */
+	text-align: center; /* Alinhando os textos no centro */
+}
+
+/*
+   #########################################
+   #                  Row                  #
+   #########################################
+ */
+
+.row { 
+	flex-direction: row; /* Padrão da esquerda para direita  */
+}
+
+/*
+   #########################################
+   #              Row-Reverse              #
+   #########################################
+ */
+
+.row-reverse {
+	flex-direction: row-reverse; /* Container da direita pra esquerda */
+}
+
+.row-reverse li {
+	background-color: aqua;
+}
+
+/*
+   #########################################
+   #                Column                 #
+   #########################################
+ */
+
+.column {
+	float: left;
+	flex-direction: column; /* Container de cima para baixo */
+}
+
+.column li {
+	background-color: orange;
+}
+
+/*
+   #########################################
+   #             Column-Reverse            #
+   #########################################
+ */
+
+.column-reverse {
+	float: right;
+	flex-direction: column-reverse; /* Container de baixo pra cima */
+}
+
+.column-reverse li {
+	background-color: green;
+}

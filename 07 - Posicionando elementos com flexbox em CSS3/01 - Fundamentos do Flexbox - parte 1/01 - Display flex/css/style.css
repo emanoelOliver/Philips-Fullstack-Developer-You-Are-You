@@ -1,0 +1,12 @@
+.flex { 
+	max-width: 300px; /* Largura Max de 30px*/
+	padding: 10px;
+	border: 2px solid black;
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+					e vai se abrigar dentro dele respeitando a orientação em linha */
+}
+
+.item {
+	background-color: aqua; /* Cor azul para os itens */
+	margin: 5px; /* Espaço dos items para a borda */
+}
