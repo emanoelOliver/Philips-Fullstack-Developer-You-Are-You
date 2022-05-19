@@ -1,0 +1,56 @@
+.container {
+	max-width: 350px; /* Adinanddo um limite maximo de 300px de largura */
+	margin-bottom: 20px; /* Define uma área de margem  na parte inferior de um elemento */
+	border: 1px solid black; /* Borda nos containers */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+							e vai se abrigar dentro dele respeitando a orientação em linha 
+						*/
+}
+
+/*
+   ##########################################
+   #                  Order                 #
+   ##########################################
+*/
+
+.o1 {
+	order: 1;
+}
+
+.o2 {
+	order: 2;
+}
+
+.o3 {
+	order: 3;
+}
+
+.o4 {
+	order: 4;
+}
+
+.direction {
+	flex-direction: column;
+}
+
+
+/*
+   ##########################################
+   #        Estilização dos conteudos       #
+   ##########################################
+*/
+
+h1, div {
+	font-family: monospace; /* Alteração da fonte */
+	font-size: 15px; /* Tamanho da fonte em 20px */
+}
+
+.item {
+	flex: 0;
+	background-color: orange; /* Cor de fundo laranja */
+	color: white; /* Cor dos caracteres branco */
+	text-align: center; /* Texto centralizado */
+	font-size: 15; /* Tamanho da fonte */
+	margin: 5px; /* Espamento entre os caracteres e o container */
+	padding: 10px; /* Uma distância entre o conteúdo de um elemento e suas bordas */
+}

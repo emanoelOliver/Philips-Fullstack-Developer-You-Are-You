@@ -1,6 +1,6 @@
 .container {
-	margin-bottom: 30px; /* Espaçamento abaixo de 30px em cada container */
-	width: 400px; /* Adinanddo um limite maximo de 400px de largura */
+	margin-bottom: 20px; /* Espaçamento abaixo de 30px em cada container */
+	max-width: 350px; /* Adinanddo um limite maximo de 400px de largura */
 	border: 1px solid black; /* Borda nos containers */
 	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
 							e vai se abrigar dentro dele respeitando a orientação em linha 
@@ -9,7 +9,7 @@
 
 /*
    ##########################################
-   #            Align Items - Row           #
+   #               Align Items              #
    ##########################################
 */
 
@@ -17,35 +17,26 @@
 	flex: 1;
 }
 
+.start {
+	align-items: flex-start; /* Alinha os itens no topo do container */
+}
+
+.end {
+	align-items: flex-end; /* Alinha os itens no final do container */
+}
+
 .center {
-	align-items: center;
+	align-items: center; /* São alinhado pelo eixo de linha */
 }
 
-.strectch {
-	align-items: stretch;
+.stretch {
+	align-items: stretch; /* Os itens crescem de acordo com o maior conteudo */
 }
 
-.flex-start {
-	align-items: flex-start;
+.baseline {
+	align-items: baseline; /* Os itens crescem de acordo com a linha base da fonte */
 }
 
-.flex-end {
-	align-items: flex-end;
-}
-	
-.base-line {
-	align-items: baseline;
-}
-
-.central {
-	height: 300px;
-	justify-content: center;
-}
-
-.central .item {
-	flex: 0;
-	padding: 20px;
-}
 
 /*
    #########################################
@@ -73,5 +64,5 @@ h1, div{
 	color: white; /* Cor dos caracteres branco */
 	text-align: center; /* Texto centralizado */
 	margin: 5px; /* Espamento entre os caracteres e o container */
-	flex: 1;
+	flex: 1; /* Abreviação para Flex-Grow */
 }

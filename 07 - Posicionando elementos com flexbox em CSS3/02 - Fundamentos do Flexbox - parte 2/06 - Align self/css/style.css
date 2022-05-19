@@ -1,0 +1,61 @@
+.container {
+	max-width: 350px; /* Adinanddo um limite maximo de 300px de largura */
+	margin-bottom: 20px; /* Define uma área de margem  na parte inferior de um elemento */
+	border: 1px solid black; /* Borda nos containers */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+							e vai se abrigar dentro dele respeitando a orientação em linha 
+						*/
+}
+
+.align-container {
+	align-items: center;
+}
+
+/*
+   ##########################################
+   #               Align Self               #
+   ##########################################
+*/
+
+.auto {
+	align-self: auto; /* Valor padrão, irá respeitar a definição de align-items do container */
+}
+
+.start {
+	align-self: flex-start; /* Ao inicio do container */
+}
+
+.end {
+	align-self: flex-end; /* Ao final do container */
+}
+
+.center {
+	align-self: center; /* Relativo ao centro de acordo com o eixo */
+}
+
+.stretch {
+	align-self: stretch; /* Ocupa todo os espaço relativo */
+}
+
+.baseline {
+	align-self: baseline; /* Utiliza a linha base da tipografia */
+}
+
+/*
+   ##########################################
+   #        Estilização dos conteudos       #
+   ##########################################
+*/
+
+h1, div {
+	font-family: monospace; /* Alteração da fonte */
+	font-size: 15px; /* Tamanho da fonte em 20px */
+}
+
+.item {
+	background-color: orange; /* Cor de fundo laranja */
+	color: white; /* Cor dos caracteres branco */
+	font-size: 15px; /* Tamanho da fonte */
+	margin: 5px; /* Espamento entre os caracteres e o container */
+	padding: 10px; /* Uma distância entre o conteúdo de um elemento e suas bordas */
+}

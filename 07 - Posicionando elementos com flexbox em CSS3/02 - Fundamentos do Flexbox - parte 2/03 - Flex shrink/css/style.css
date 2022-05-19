@@ -1,0 +1,59 @@
+.container {
+	max-width: 500px; /* Adinanddo um limite maximo de 300px de largura */
+	/*margin: 0; /* Zerar as larguras padrões */
+	margin-bottom: 20px; /* Define uma área de margem  na parte inferior de um elemento */
+	border: 1px solid black; /* Borda nos containers */
+	/*flex-wrap: wrap; /* Se exceder o tamanho do flex ele faz a quebra de linha */
+	display: flex; /* Cada item de dentro desse container vai ocupar o max do conteudo 
+							e vai se abrigar dentro dele respeitando a orientação em linha 
+						*/
+}
+
+/*
+   ##########################################
+   #               Flex Shrink              #
+   ##########################################
+*/
+.s-0 {
+	flex-basis: 100px;
+	flex-shrink: 0; /* Vai tentar comprimir os itens para que não transborde 
+							 mas sera inevitavel */
+}
+
+.s-1 {
+	flex-shrink: 1; /* Tenta comprimir os itens em 1x para que não transborde */
+}
+
+.s-2 {
+	flex-shrink: 2; /* Tenta comprimir os itens em 2x para que não transborde */
+}
+
+.s-3 {
+	flex-shrink: 3; /* Tenta comprimir os itens em 3x para que não transborde */
+}
+
+
+.fg-1 {
+	flex-grow: 1;
+}
+
+
+/*
+   ##########################################
+   #        Estilização dos conteudos       #
+   ##########################################
+*/
+
+h1, div {
+	font-family: monospace; /* Alteração da fonte */
+	font-size: 20px; /* Tamanho da fonte em 20px */
+}
+
+.item {
+	background-color: orange; /* Cor de fundo laranja */
+	color: white; /* Cor dos caracteres branco */
+	text-align: center; /* Texto centralizado */
+	font-size: 15;
+	margin: 5px; /* Espamento entre os caracteres e o container */
+	padding: 10px; /* Uma distância entre o conteúdo de um elemento e suas bordas */
+}
