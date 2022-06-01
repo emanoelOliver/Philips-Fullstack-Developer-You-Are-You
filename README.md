@@ -6,7 +6,7 @@
 
 ------
 
-## Lógica de programação essencial :computer: :heavy_check_mark: ##
+## Lógica de programação essencial :computer:  ##
 
 ------
 
@@ -28,7 +28,7 @@
 
 
 
-## Pensamento computacional :desktop_computer: :robot: :heavy_check_mark:
+## Pensamento computacional :desktop_computer: :robot: 
 
 ------
 
@@ -52,7 +52,7 @@
 
 
 
-## Introdução ao Git e ao Github  :cat: :heavy_check_mark:
+## Introdução ao Git e ao Github  :cat: 
 
 ------
 
@@ -89,7 +89,7 @@
 
 
 
- ## Introdução a criação de websites com HTML5 e CSS3 :page_facing_up: :heavy_check_mark:
+ ## Introdução a criação de websites com HTML5 e CSS3 :page_facing_up: 
 
 ------
 
@@ -137,7 +137,7 @@
 
 
 
-## Construindo páginas para internet com Bootstrap :page_facing_up::heavy_check_mark:
+## Construindo páginas para internet com Bootstrap :page_facing_up:
 
 ------
 
@@ -167,7 +167,7 @@
 
 
 
-## Posicionando elementos com flexbox em CSS3
+## Posicionando elementos com flexbox em CSS3 :page_facing_up:
 
 ------
 
@@ -212,7 +212,7 @@
 
 
 
-## Sintaxe básica em javaScript
+## Sintaxe básica em JavaScript 
 
 ------
 

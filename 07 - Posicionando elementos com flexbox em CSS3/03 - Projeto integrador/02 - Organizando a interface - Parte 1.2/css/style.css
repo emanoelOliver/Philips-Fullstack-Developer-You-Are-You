@@ -17,9 +17,25 @@ ul li a {
 .flex-container {
 	display: flex;
 	max-width: 992px;
+	width: 100%;
 	margin: auto;
 }
 
 header {
+	display: flex;
+	align-items: center;
 	background-color: #122A57;
+	height: 100px;
+}
+
+header .list-items {
+	display: flex;
+}
+
+.list-items li a {
+	color: #FFF;
+}
+
+header .menu {
+	justify-content: space-around;
 }
